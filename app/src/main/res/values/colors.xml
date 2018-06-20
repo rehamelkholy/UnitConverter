@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#888888</color>
+    <color name="colorPrimaryDark">#aaaaaa</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="area">#D50000</color>
+    <color name="data_transfer_rate">#C51162</color>
+    <color name="digital_storage">#AA00FF</color>
+    <color name="energy">#6200EA</color>
+    <color name="frequency">#2962FF</color>
+    <color name="fuel_economy">#0091EA</color>
+    <color name="length">#00BFA5</color>
+    <color name="mass">#00C853</color>
+    <color name="plane_angle">#64DD17</color>
+    <color name="pressure">#AEEA00</color>
+    <color name="speed">#FFD600</color>
+    <color name="temperature">#FFAB00</color>
+    <color name="time">#FF6D00</color>
+    <color name="volume">#DD2C00</color>
+
+</resources>

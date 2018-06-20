@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.unitconverter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AreaActivity"
+            android:label="@string/area"/>
+        <activity android:name=".DataTransferRateActivity"
+            android:label="@string/data_transfer_rate"/>
+        <activity android:name=".DigitalStorageActivity"
+            android:label="@string/digital_storage"/>
+        <activity android:name=".EnergyActivity"
+            android:label="@string/energy"/>
+        <activity android:name=".FrequencyActivity"
+            android:label="@string/frequency"/>
+        <activity android:name=".FuelEconomyActivity"
+            android:label="@string/fuel_economy"/>
+        <activity android:name=".LengthActivity"
+            android:label="@string/length"/>
+        <activity android:name=".MassActivity"
+            android:label="@string/mass"/>
+        <activity android:name=".PlaneAngleActivity"
+            android:label="@string/plane_angle"/>
+        <activity android:name=".PressureActivity"
+            android:label="@string/pressure"/>
+        <activity android:name=".SpeedActivity"
+            android:label="@string/speed"/>
+        <activity android:name=".TemperatureActivity"
+            android:label="@string/temperature"/>
+        <activity android:name=".TimeActivity"
+            android:label="@string/time"/>
+        <activity android:name=".VolumeActivity"
+            android:label="@string/volume"/>
+    </application>
+
+</manifest>

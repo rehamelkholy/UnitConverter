@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.unitconverter.SelectionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!-- Area -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/area">
+            <TextView
+                android:id="@+id/area"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/area"
+                android:onClick="onAreaButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Data Transfer Rate -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/data_transfer_rate">
+            <TextView
+                android:id="@+id/data_transfer_rate"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/data_transfer_rate"
+                android:onClick="onDataTransferRateButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Digital Storage -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/digital_storage">
+            <TextView
+                android:id="@+id/digital_storage"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/digital_storage"
+                android:onClick="onDigitalStorageButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Energy -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/energy">
+            <TextView
+                android:id="@+id/energy"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/energy"
+                android:onClick="onEnergyButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Frequency -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/frequency">
+
+            <TextView
+                android:id="@+id/frequency"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/frequency"
+                android:onClick="onFrequencyButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Fuel Economy -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fuel_economy">
+            <TextView
+                android:id="@+id/fuel_economy"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/fuel_economy"
+                android:onClick="onFuelEconomyButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Length -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/length">
+            <TextView
+                android:id="@+id/length"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/length"
+                android:onClick="onLengthButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Mass -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mass">
+            <TextView
+                android:id="@+id/mass"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/mass"
+                android:onClick="onMassButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Plane Angle -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/plane_angle">
+            <TextView
+                android:id="@+id/plane_angle"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/plane_angle"
+                android:onClick="onPlaneAngleButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Pressure -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pressure">
+            <TextView
+                android:id="@+id/pressure"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/pressure"
+                android:onClick="onPressureButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Speed -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/speed">
+            <TextView
+                android:id="@+id/speed"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/speed"
+                android:onClick="onSpeedButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Temperature -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/temperature">
+            <TextView
+                android:id="@+id/temperature"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/temperature"
+                android:onClick="onTemperatureButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Time -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/time">
+            <TextView
+                android:id="@+id/time"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/time"
+                android:onClick="onTimeButtonClicked"/>
+        </FrameLayout>
+
+        <!-- Volume -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/volume">
+            <TextView
+                android:id="@+id/volume"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/volume"
+                android:onClick="onVolumeButtonClicked"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
